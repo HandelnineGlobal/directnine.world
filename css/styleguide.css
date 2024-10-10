@@ -1,0 +1,105 @@
+:root { 
+  --bg-green: #f5f8fb;
+  --hover: #123e7d;
+  --primary: #0e3163;
+  --secondary: #000000;
+  --text-grey: #4f4f4f;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 12px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 40px;
+  --font-size-xxxl: 48px;
+  --font-size-xxxxl: 50px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.h2 {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.paragraph {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.button-text {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.poppins-semi-bold-midnight-blue-24px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-light-abbey-18px {
+  color: var(--text-grey);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.poppins-semi-bold-midnight-blue-20px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-normal-midnight-blue-50px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-midnight-blue-48px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-midnight-blue-40px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-medium-biscay-16px {
+  color: var(--primary);
+  font-family: var(--font-family-poppins);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-bold-midnight-blue-40px {
+  color: var(--hover);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
